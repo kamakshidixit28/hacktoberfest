@@ -110,11 +110,11 @@ def single_game(curr_player):
 if __name__ == "__main__":
 
     print("Player 1")
-    player1 = input("Enter Player1 name : ")
+    player1 = input("Enter the name of the player 1 : ")
     print("\n")
 
     print("Player 2")
-    player2 = input("Enter Player2 name : ")
+    player2 = input("Enter the name of the player 2 : ")
     print("\n")
 
 

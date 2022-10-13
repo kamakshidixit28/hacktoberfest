@@ -102,6 +102,8 @@ def main():
 
     printBoard(board)
 
+    
+    
     while not(isBoardFull(board)):
         if not(isWinner(board, 'O')):
             playerMove()
@@ -126,7 +128,7 @@ def main():
         print('Tie Game!')
 
 while True:
-    answer = input('Do you want to play again? (Y/N)')
+    answer = input('Do you want to play again? (Yes/No)')
     if answer.lower() == 'y' or answer.lower == 'yes':
         board = [' ' for x in range(10)]
         print('-----------------------------------')
